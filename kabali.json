@@ -1,0 +1,49 @@
+{
+  "name": {
+    "S": "kabali-5"
+  },
+  "role": {
+    "S": "Rajini"
+  },
+  "producer" : {
+	"S" : "Danu"
+},
+  "Running" : {
+	"B" : "true"
+},
+"active": {
+    "BOOL": true
+  },
+  "filmography": {
+    "M": {
+      "title": {
+        "S": "Seinfeld"
+      },
+      "title": {
+        "S": "Genre"
+      },
+      "cohosts": {
+        "L": [
+          {
+            "S": "Julia Louis-Dreyfus"
+          },
+          {
+            "S": "Jason Alexander"
+          },
+          {
+            "S": "Michael Richards"
+          }
+        ]
+      },
+      "origin": {
+        "S": "USA"
+      },
+      "startYear": {
+        "N": "1989"
+      },
+      "endYear": {
+        "N": "1998"
+      }
+    }
+  }
+}

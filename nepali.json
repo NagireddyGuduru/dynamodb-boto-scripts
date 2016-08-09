@@ -1,0 +1,45 @@
+{
+	"name": {
+		"S": "indian"
+	},
+	"Type": {
+		"S": "south"
+	},
+	"Open": {
+		"BOOL": true
+	},
+	"Menu": {
+		"M": {
+			"title": {
+				"S": "Veg-Thali"
+			},
+			"title": {
+				"S": "Soup"
+			},
+			"Thali": {
+				"L": [{
+					"S": "Rice"
+				}, {
+					"S": "Nan"
+				}, {
+					"S": "currey"
+				}, {
+					"S": "Gulobjamum"
+				}, {
+					"S": "Spinach"
+				}, {
+					"S": "Appalam"
+				}]
+			},
+			"origin": {
+				"S": "USA"
+			},
+			"startYear": {
+				"N": "1989"
+			},
+			"endYear": {
+				"N": "1998"
+			}
+		}
+	}
+}

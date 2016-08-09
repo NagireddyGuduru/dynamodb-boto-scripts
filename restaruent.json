@@ -1,0 +1,41 @@
+{
+	"Restaurant": [{
+		"Name": {
+			"S": "PFC"
+		},
+		"Star": {
+			"S": "five"
+		},
+		"Open": {
+			"BOOL": "true"
+		},
+		"Menu": {
+			"M": {
+				"Dinner": {
+					"S": "noodles"
+				},
+				"Dinner": {
+					"S": "soup"
+				},
+				"Starter": {
+					"L": [{
+						"S": "veg roll"
+					}, {
+						"S": "egg roll"
+					}, {
+						"S": "chicken fry"
+					}]
+				},
+				"Location": {
+					"S": "USA"
+				},
+				"Open": {
+					"N": "9"
+				},
+				"Close": {
+					"N": "10"
+				}
+			}
+		}
+	}]
+}
